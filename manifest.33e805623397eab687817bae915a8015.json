@@ -1,0 +1,42 @@
+{
+  "icons": [
+    {
+      "src": "/icon_512x512.1cf3c11f51fb40328162d70c1704e421.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_192x192.38dbb0b9aafd42e070d660c9b44a8be1.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_144x144.ac504c2bfa328c1a87b9ca80a0185ee6.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_96x96.39aad78c4973b7873867976ffecf3dcb.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_72x72.09f165b98e576cb91ed0191360cc2861.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_48x48.905a5dffd896edcb78d589d3462f974c.png",
+      "sizes": "48x48",
+      "type": "image/png"
+    }
+  ],
+  "name": "Aofl Starter App",
+  "short_name": "AoflStarter",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": ".",
+  "description": "Aofl Starter App",
+  "theme-color": "#fdf667",
+  "background_color": "#fdf667"
+}
