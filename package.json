@@ -5,9 +5,9 @@
   "main": "index.js",
   "private": true,
   "scripts": {
-    "env:prod": "cross-env NODE_ENV=production",
+    "env:prod": "cross-env NODE_ENV=production PUBLIC_PATH=/",
     "env:dev": "cross-env NODE_ENV=development",
-    "env:stage": "cross-env NODE_ENV=stage",
+    "env:stage": "cross-env NODE_ENV=production PUBLIC_PATH=/LenLesterPortfolio",
     "env:test": "cross-env NODE_ENV=test",
     "test": "npm run env:test -- npx aofl test",
     "prod": "npm run env:prod -- npx aofl build",

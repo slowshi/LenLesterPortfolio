@@ -3,8 +3,8 @@ const path = require('path');
 let publicPath = '/';
 const buildPath =  path.join(__dirname, '__build');
 
-if (process.env.NODE_ENV === 'development') {
-  publicPath = '/LenLesterPortfolio';
+if (typeof process.env.PUBLIC_PATH !== 'undefined') {
+  publicPath = process.env.PUBLIC_PATH;
 }
 
 module.exports = {
