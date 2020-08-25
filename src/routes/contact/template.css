@@ -2,5 +2,6 @@
 @import url("../../template/main/css/index.css");
 
 :host {
-display: block;
+  display: block;
+  width: 100%;
 }

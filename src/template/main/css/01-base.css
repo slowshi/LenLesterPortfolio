@@ -1,0 +1,8 @@
+route-view {
+  display: none;
+}
+
+/*! purgecss ignore */
+route-view.loaded {
+  display: block;
+}

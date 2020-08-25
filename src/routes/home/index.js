@@ -1,9 +1,9 @@
 /**
  * @route /
- * @title AofL::Home
+ * @title Len Lester | Home
  * @prerender false
  */
-import {template} from './template';
+import template from './template';
 import {AoflElement, customElement} from '@aofl/element';
 import styles from './template.css';
 

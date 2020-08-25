@@ -1,2 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic');
+
 @import url('./00-reset/index.css');
-@import url('./02-base.css');
+@import url('./01-base.css');
+/* @import url('./02-bootstrap.css'); */
+@import url('../../../../node_modules/bootstrap/dist/css/bootstrap.css');
+@import url('./02-theme.css');

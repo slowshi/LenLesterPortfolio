@@ -1,0 +1,65 @@
+/**!
+ * @aoflComponent
+ */
+ @import url('../../template/main/css/index.css');
+ :host {
+   display:block
+ }
+
+ #container {
+  margin:auto;
+  display: flex;
+  padding: 1.25rem;
+  width: 100%;
+  flex-flow: wrap;
+  max-width: 1200px;
+}
+
+#pageWrapper {
+  width: 100%;
+}
+
+#headerWrapper {
+  width: 100%;
+}
+
+#mainNav {
+  display:none;
+}
+
+.section {
+  overflow:hidden;
+  transition: max-height 0.15s ease-in;
+  max-height: 0;
+}
+.section.open {
+  max-height: 200px;
+}
+
+
+@media (min-width: 768px) {
+  #container {
+    padding: 2.5rem;
+  }
+  
+  #mainNav {
+    display:block;
+  }
+
+  #mobileNav {
+    display:none;
+    overflow:hidden;
+  }
+
+  #headerWrapper {
+    width: 25%;
+  }
+
+  #pageWrapper {
+    width: 75%;
+  }
+
+  #menuBtn {
+    display: none;
+  }
+}
