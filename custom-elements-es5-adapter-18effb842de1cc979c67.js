@@ -1,0 +1,3 @@
+/*! For license information please see custom-elements-es5-adapter-18effb842de1cc979c67.js.LICENSE.txt */
+(window.webpackJsonp=window.webpackJsonp||[]).push([[2],{MNmX:function(t,e){!function(){"use strict";!function(){if(void 0===window.Reflect||void 0===window.customElements||window.customElements.polyfillWrapFlushCallback)return;const t=HTMLElement;window.HTMLElement=function(){return Reflect.construct(t,[],this.constructor)},HTMLElement.prototype=t.prototype,HTMLElement.prototype.constructor=HTMLElement,Object.setPrototypeOf(HTMLElement,t)}()}()}},[["MNmX",1]]]);
+//# sourceMappingURL=custom-elements-es5-adapter-18effb842de1cc979c67.js.map
